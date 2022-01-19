@@ -1,0 +1,135 @@
+body {
+    font-family: sans-serif, Helvetica;
+}
+
+#imagen-indice {
+    width: 130px;
+}
+
+#left {
+    background-color: whitesmoke;
+    padding: 0px 18px 5px 30px;
+    margin: -15px;
+    width: 140px;
+}
+
+#right {
+    background-color: white;
+    margin: -15px -15px -15px 15px;
+    border-left: 1px solid rgb(166, 222, 248);
+}
+
+#main {
+    display: flex;
+    align-content: space-between;
+}
+
+#logo {
+    padding-left: 5px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 4px;
+    font-size: 12px;
+}
+
+li {
+    padding-top: 5px;
+    color: #0645ad;
+}
+
+.categoria {
+    color: #54595d;
+    border-bottom: 1px solid grey;
+}
+
+.pestania {
+    display: inline-block;
+    background-color: white;
+    padding: 50px 8px 5px 8px;
+}
+
+#title {
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+    font-weight: normal;
+    border-bottom: 1px solid rgb(182, 181, 181);
+    margin-bottom: 0px;
+}
+
+#container-title {
+    padding-left: 20px;
+}
+
+#content {
+    padding-left: 20px;
+    width: 1120px;
+    display: flex;
+    align-content: space-between;
+}
+
+.descripcion {
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+#data-container {
+    border: 1px solid rgb(182, 181, 181);
+    width: 1350px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: whitesmoke;
+}
+
+#data-title {
+    background-color: rgb(76, 96, 153);
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 1px ;
+    margin: 5px;
+}
+
+#imagen-desc {
+    display: block;
+    margin: auto;
+    width: 250px;
+}
+
+#caption {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 13px;
+}
+
+#subtitle {
+    background-color: rgb(76, 96, 153);
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 4px 5px 4px 5px;
+    text-align: center;
+}
+
+table {
+    margin-top: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+td {
+    font-size: 14px;;
+}
+
+.campo {
+    width: 30%;
+}
+
+#indice {
+    width: 400px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(182, 181, 181);
+    font-size: 13px;
+}
+
