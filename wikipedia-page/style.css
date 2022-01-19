@@ -30,6 +30,9 @@ body {
 
 ul {
     list-style: none;
+}
+
+#indice-izq, .tabs {
     padding-left: 4px;
     font-size: 12px;
 }
@@ -93,7 +96,7 @@ li {
 #imagen-desc {
     display: block;
     margin: auto;
-    width: 250px;
+    width: 240px;
 }
 
 #caption {
@@ -127,9 +130,33 @@ td {
 }
 
 #indice {
-    width: 400px;
+    width: 430px;
     background-color: whitesmoke;
     border: 1px solid rgb(182, 181, 181);
     font-size: 13px;
 }
 
+#indice-principal {
+    margin-top: 0px;
+    padding-left: 10px;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 50;
+}
+
+.enumeracion {
+    color: black;
+    padding-right: 5px;
+}
+
+.nivel2 {
+    padding-left: 30px;
+}
+
+.nivel3 {
+    padding-left: 60px;
+}
+
+.nivel4 {
+    padding-left: 90px;
+}
