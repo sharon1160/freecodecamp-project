@@ -122,7 +122,8 @@ table {
 }
 
 td {
-    font-size: 14px;;
+    font-size: 13px;
+    font-weight: initial;
 }
 
 .campo {
@@ -165,4 +166,8 @@ td {
     font-size: 17px;
     margin-top: 15px;
     margin-bottom: 5px;
+}
+
+#firma-svg {
+    width: 170px;
 }
