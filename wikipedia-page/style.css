@@ -53,7 +53,7 @@ li {
     padding: 50px 8px 5px 8px;
 }
 
-#title {
+#title, .subsection {
     font-family: 'Linux Libertine','Georgia','Times',serif;
     font-weight: normal;
     border-bottom: 1px solid rgb(182, 181, 181);
@@ -64,7 +64,7 @@ li {
     padding-left: 20px;
 }
 
-#content {
+.content {
     padding-left: 20px;
     width: 1120px;
     display: flex;
@@ -159,4 +159,10 @@ td {
 
 .nivel4 {
     padding-left: 90px;
+}
+
+.subsubsection {
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
