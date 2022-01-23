@@ -184,7 +184,7 @@ td {
 .tinner {
     border: 1px solid #c8ccd1;
     padding: 3px;
-    width: 220px;
+    width: 221px;
 }
 
 .tright {
@@ -201,4 +201,8 @@ td {
 
 .card {
     margin-bottom: 20px;
+}
+
+.image {
+    border: 1px solid #c8ccd1;
 }
