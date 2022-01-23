@@ -206,3 +206,12 @@ td {
 .image {
     border: 1px solid #c8ccd1;
 }
+
+.subsubsubsection {
+    font-size: 15px;
+}
+
+.fuente {
+    padding-left: 15px; 
+    font-size: 15px;
+}
