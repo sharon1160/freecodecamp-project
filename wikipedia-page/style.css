@@ -171,3 +171,34 @@ td {
 #firma-svg {
     width: 170px;
 }
+
+.image {
+    width: 220px;
+}
+
+.caption {
+    font-size: 12px;
+    margin: 0px;
+}
+
+.tinner {
+    border: 1px solid #c8ccd1;
+    padding: 3px;
+    width: 220px;
+}
+
+.tright {
+    clear: right;
+    float: right;
+    margin-left: 20px;
+}
+
+.tleft {
+    clear: left;
+    float: left;
+    margin-right: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
