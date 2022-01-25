@@ -1,218 +1,228 @@
 body {
-    font-family: sans-serif, Helvetica;
+  font-family: sans-serif, Helvetica;
 }
 
 #imagen-indice {
-    width: 130px;
+  width: 130px;
 }
 
 #left {
-    background-color: whitesmoke;
-    padding: 0px 18px 5px 30px;
-    margin: -15px;
-    width: 140px;
+  background-color: whitesmoke;
+  padding: 0px 18px 5px 30px;
+  margin: -15px;
+  width: 140px;
 }
 
 #right {
-    background-color: white;
-    margin: -15px -15px -15px 15px;
-    border-left: 1px solid rgb(166, 222, 248);
+  background-color: white;
+  margin: -15px -15px -15px 15px;
+  border-left: 1px solid rgb(166, 222, 248);
 }
 
 #main {
-    display: flex;
-    align-content: space-between;
+  display: flex;
+  align-content: space-between;
 }
 
 #logo {
-    padding-left: 5px;
+  padding-left: 5px;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
-#indice-izq, .tabs {
-    padding-left: 4px;
-    font-size: 12px;
+#indice-izq,
+.tabs {
+  padding-left: 4px;
+  font-size: 12px;
 }
 
 li {
-    padding-top: 5px;
-    color: #0645ad;
+  padding-top: 5px;
 }
 
 .categoria {
-    color: #54595d;
-    border-bottom: 1px solid grey;
+  color: #54595d;
+  border-bottom: 1px solid grey;
 }
 
 .pestania {
-    display: inline-block;
-    background-color: white;
-    padding: 50px 8px 5px 8px;
+  display: inline-block;
+  background-color: white;
+  padding: 50px 8px 5px 8px;
 }
 
-#title, .subsection {
-    font-family: 'Linux Libertine','Georgia','Times',serif;
-    font-weight: normal;
-    border-bottom: 1px solid rgb(182, 181, 181);
-    margin-bottom: 0px;
+#title,
+.subsection {
+  font-family: "Linux Libertine", "Georgia", "Times", serif;
+  font-weight: normal;
+  border-bottom: 1px solid rgb(182, 181, 181);
+  margin-bottom: 0px;
 }
 
 #container-title {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .content {
-    padding-left: 20px;
-    width: 1120px;
-    display: flex;
-    align-content: space-between;
+  padding-left: 20px;
+  width: 1120px;
+  display: flex;
+  align-content: space-between;
 }
 
 .descripcion {
-    line-height: 1.5;
-    font-size: 14px;
+  line-height: 1.5;
+  font-size: 14px;
 }
 
 #data-container {
-    border: 1px solid rgb(182, 181, 181);
-    width: 3000px;
-    margin-top: 20px;
-    margin-left: 20px;
-    background-color: whitesmoke;
+  border: 1px solid rgb(182, 181, 181);
+  width: 3000px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: whitesmoke;
 }
 
 #data-title {
-    background-color: rgb(76, 96, 153);
-    text-align: center;
-    color: white;
-    font-size: 12px;
-    padding: 1px ;
-    margin: 5px;
+  background-color: rgb(76, 96, 153);
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  padding: 1px;
+  margin: 5px;
 }
 
 #imagen-desc {
-    display: block;
-    margin: auto;
-    width: 240px;
+  display: block;
+  margin: auto;
+  width: 240px;
 }
 
 #caption {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    text-align: center;
-    font-size: 13px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 13px;
 }
 
 #subtitle {
-    background-color: rgb(76, 96, 153);
-    color: white;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    margin: 4px 5px 4px 5px;
-    text-align: center;
+  background-color: rgb(76, 96, 153);
+  color: white;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin: 4px 5px 4px 5px;
+  text-align: center;
 }
 
 table {
-    margin-top: 0px;
-    margin-left: 2px;
-    margin-right: 2px;
+  margin-top: 0px;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 td {
-    font-size: 13px;
-    font-weight: initial;
+  font-size: 13px;
+  font-weight: initial;
 }
 
 .campo {
-    width: 30%;
+  width: 30%;
 }
 
 #indice {
-    width: 430px;
-    background-color: whitesmoke;
-    border: 1px solid rgb(182, 181, 181);
-    font-size: 13px;
+  width: 430px;
+  background-color: whitesmoke;
+  border: 1px solid rgb(182, 181, 181);
+  font-size: 13px;
 }
 
 #indice-principal {
-    margin-top: 0px;
-    padding-left: 10px;
-    font-size: 13px;
-    line-height: 17px;
-    font-weight: 50;
+  margin-top: 0px;
+  padding-left: 10px;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 50;
 }
 
 .enumeracion {
-    color: black;
-    padding-right: 5px;
+  color: black;
+  padding-right: 5px;
 }
 
 .nivel2 {
-    padding-left: 30px;
+  padding-left: 30px;
 }
 
 .nivel3 {
-    padding-left: 60px;
+  padding-left: 60px;
 }
 
 .nivel4 {
-    padding-left: 90px;
+  padding-left: 90px;
 }
 
 .subsubsection {
-    font-size: 17px;
-    margin-top: 15px;
-    margin-bottom: 5px;
+  font-size: 17px;
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
 #firma-svg {
-    width: 170px;
+  width: 170px;
 }
 
 .image {
-    width: 220px;
+  width: 220px;
 }
 
 .caption {
-    font-size: 12px;
-    margin: 0px;
+  font-size: 12px;
+  margin: 0px;
 }
 
 .tinner {
-    border: 1px solid #c8ccd1;
-    padding: 3px;
-    width: 221px;
+  border: 1px solid #c8ccd1;
+  padding: 3px;
+  width: 221px;
 }
 
 .tright {
-    clear: right;
-    float: right;
-    margin-left: 20px;
-    margin-bottom: 20px;
+  clear: right;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .tleft {
-    clear: left;
-    float: left;
-    margin-right: 20px;
+  clear: left;
+  float: left;
+  margin-right: 20px;
 }
 
 .image {
-    border: 1px solid #c8ccd1;
+  border: 1px solid #c8ccd1;
 }
 
 .subsubsubsection {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .fuente {
-    padding-left: 15px; 
-    font-size: 15px;
+  padding-left: 15px;
+  font-size: 15px;
 }
 
 #item {
-    color: black;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #0645ad;
+}
+
+a:hover {
+  text-decoration: underline;
 }
