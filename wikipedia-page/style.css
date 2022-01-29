@@ -245,10 +245,10 @@ a:hover {
   line-height: 16px;
 }
 
-#autoridades {
+#autoridades-table,
+#categorias-table {
   border: 1px solid #aaa;
   width: 100%;
-  margin-bottom: 15px;
   margin-top: 20px;
   padding: 2px;
 }
@@ -260,6 +260,29 @@ a:hover {
   text-align: center;
 }
 
-.item-aut {
+.item-aut,
+.item-cat,
+.item-footer {
   display: inline;
+}
+
+.item-foot-padd {
+  padding-left: 10px;
+}
+
+.separator {
+  color: #aaa;
+}
+
+#footer {
+  background-color: whitesmoke;
+  height: 150px;
+  width: 1148px;
+  margin-left: -1px;
+  padding-left: 22px;
+  padding-top: 12px;
+  font-size: 12px;
+  color: #202122;
+  line-height: 1.5;
+  border-top: 1px solid rgb(166, 222, 248);
 }
