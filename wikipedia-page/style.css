@@ -286,3 +286,9 @@ a:hover {
   line-height: 1.5;
   border-top: 1px solid rgb(166, 222, 248);
 }
+
+#logos {
+  clear: right;
+  float: right;
+  margin-right: 1rem;
+}
