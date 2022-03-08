@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=League+Spartan:wght@300&family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap');
+
+body {
+  background: linear-gradient(
+    90deg, 
+    rgba(42, 41, 126, 0.713), 
+    rgba(69, 71, 161, 0.631)
+    ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-bottom: 5em;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+}
+
+.text-center {
+  text-align: center;
+}
+#title, .fields {
+  text-shadow: 1px 0.5px rgb(117, 116, 116);
+}
+
+#title {
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+#description {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+#survey-form {
+  width: 55%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.624);
+  border-radius: 0.5em;
+}
+
+fieldset {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 8%;
+  border: 0;
+}
+
+.fields {
+  font-weight: 900;
+}
+
+::placeholder { 
+  color: rgb(148, 144, 144);
+}
+
+input {
+  font-size: 1.05em;
+  padding-left: 1em;
+  margin-top: 1em;
+  width: 100%;
+  height: 2.2em;
+  border-radius: 0.2em;
+  border: none;
+}
